@@ -1,0 +1,4 @@
+AuthType Basic
+AuthUserFile /var/www/vhosts/pokelytics.de/httpdocs/admin/src/pw/admin/.htpasswd
+AuthName "restricted-arena"
+Require valid-user
